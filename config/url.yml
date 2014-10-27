@@ -1,0 +1,5 @@
+---
+base: http://download.run.pivotal.io
+default:
+  jdk: /openjdk/lucid/x86_64/openjdk-1.7.0_55.tar.gz
+  tomcat: /tomcat/tomcat-7.0.54.tar.gz
