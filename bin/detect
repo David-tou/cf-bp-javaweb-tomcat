@@ -6,7 +6,7 @@ $stderr.sync = true
 
 build_dir = ARGV[0]
 #if Dir.exists?("#{build_dir}/WEB-INF") and File.exists?("#{build_dir}/WEB-INF/web.xml")
-　↓　↓　↓　↓　↓
+
 if File.exists?("#{build_dir}/solr.war" and File.exists?("#{build_dir}/solr.xml")
   puts 'Ok, it is a solr application.'
   exit 0
